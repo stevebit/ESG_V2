@@ -101,7 +101,7 @@ interest_over_time %>%
   ggtitle("Global Google Trend Searches for ESG")+
   xlab("Date") +
   ylab("Relative Daily Searches") 
-sad
+
 
 db %>%
   filter(geo %in% c("MY")) %>%
